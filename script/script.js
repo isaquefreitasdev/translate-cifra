@@ -16,10 +16,10 @@ function calcNot(){
     else if(valueCi.value === 'G' || valueCi.value === 'g'){
         res.innerHTML = 'Sol';
     }
-    else if(valueCi.value === 'A'  === 'a'){
+    else if(valueCi.value === 'A' ||  valueCi.value === 'a'){
         res.innerHTML = 'Lá'
     }
-    else if(valueCi.value === 'B' === 'b'){
+    else if(valueCi.value === 'B' || valueCi.value === 'b'){
         res.innerHTML = 'Si'
     }else{
         res.innerHTML = 'Error'
