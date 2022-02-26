@@ -21,7 +21,28 @@ function calcNot(){
     }
     else if(valueCi.value === 'B' || valueCi.value === 'b'){
         res.innerHTML = 'Si'
-    }else{
+    }else if(valueCi.value === 'C#' || valueCi.value === 'c#'){
+        res.innerHTML = 'Dó sustenido'
+    }
+    else if(valueCi.value === 'D#' || valueCi.value === 'd#'){
+        res.innerHTML = 'Ré sustenido';
+    }
+    else if(valueCi.value === 'E#' || valueCi.value === 'e#'){
+        res.innerHTML = 'Fá'
+    }
+    else if(valueCi.value === 'F#' || valueCi.value === 'f#'){
+        res.innerHTML = 'Fá sustenido'
+    }
+    else if(valueCi.value === 'G#' || valueCi.value === 'g#'){
+        res.innerHTML = 'Sol sustenido';
+    }
+    else if(valueCi.value === 'A#' || valueCi.value === 'a#'){
+        res.innerHTML = 'Lá sustenido';
+    }
+    else if(valueCi.value === 'B#' || valueCi.value === 'b#'){
+        res.innerHTML = 'Dó'
+    }
+    else{
         res.innerHTML = 'Error'
     }
 }
