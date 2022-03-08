@@ -114,6 +114,85 @@ function calcNot(){
         res.innerHTML = 'Si bemol menor'
     }else if(valueCi.value === 'E#m' || valueCi.value === 'e#m'){
         res.innerHTML = 'Mi sustenido menor'
+    }else if(valueCi.value === 'C9' || valueCi.value === 'c#9'){
+        res.innerHTML = 'Dó com nona'
+    }else if(valueCi.value === 'Cm9' || valueCi.value === 'cm9'){
+        res.innerHTML = 'Dó menor com nona'
+    }else if(valueCi.value === 'C#9' || valueCi.value === 'C#9'){
+        res.innerHTML = 'Dó sustenido com nona'
+    }else if(valueCi.value === 'C#m9' || valueCi.value === 'c#m9'){
+        res.innerHTML = 'Dó sustenido menor com nona'
+    }else if(valueCi.value === 'Cb9' || valueCi.value === 'cb9'){
+        res.innerHTML = 'Dó bemol com nona'
+    }else if(valueCi.value === 'Cbm9' || valueCi.value === 'cbm'){
+        res.innerHTML = 'Dó bemol menor com nona'
+    }else if(valueCi.value === 'D#9' || valueCi.value === 'd#9'){
+        res.innerHTML = 'Ré sustenido com nona'
+    }else if(valueCi.value === 'D#m9' || valueCi.value === 'd#m9'){
+        res.innerHTML = 'Ré sustenido menor com nona'
+    }else if(valueCi.value === 'D9' || valueCi.value === 'd9'){
+        res.innerHTML = 'Ré com nona'
+    }
+    else if(valueCi.value === 'Dm9' || valueCi.value === 'dm9'){
+        res.innerHTML = 'Ré menor com nona'
+    }else if(valueCi.value === 'Db9' || valueCi.value === 'db9'){
+        res.innerHTML = 'Ré bemol com nona'
+    }else if(valueCi.value === 'Dbm9' || valueCi.value === 'Dbm9'){
+        res.innerHTML = 'Ré bemol menor com nona';
+    }else if(valueCi.value === 'E9' || valueCi.value === 'e9'){
+        res.innerHTML = 'Mi com nona'
+    }else if(valueCi.value === 'Em9' || valueCi.value === 'em9'){
+        res.innerHTML = 'Mi menor com nona'
+    }else if(valueCi.value === 'E#m9' || valueCi.value === 'e#m9'){
+        res.innerHTML = 'Mi sustenido menor com nona';
+    }else if(valueCi.value === 'Eb9' || valueCi.value === 'eb9'){
+        res.innerHTML = 'Mi bemol com nona'
+    }else if(valueCi.value === 'Ebm9' || valueCi.value === 'ebm9'){
+        res.innerHTML = 'Mi bemol menor com nona'
+    }else if(valueCi.value === 'F9' || valueCi.value === 'f9'){
+        res.innerHTML = 'Fá com nona'
+    }else if(valueCi.value === 'F#9' || valueCi.value === 'f#9'){
+        res.innerHTML = 'Fá sustenido com nona'
+    }else if(valueCi.value === 'F#m9' || valueCi.value === 'f#m9'){
+        res.innerHTML = 'Fá sustenido menor com nona'
+    }else if(valueCi.value === 'Fm9' || valueCi.value === 'fm9'){
+        res.innerHTML = 'Fá menor com nona'
+    }else if(valueCi.value === 'Fb9' || valueCi.value === 'fb9'){
+        res.innerHTML = 'Fá bemol com nona'
+    }else if(valueCi.value === 'Fbm9' || valueCi.value === 'fbm9'){
+        res.innerHTML = 'Fá bemol menor com nona'
+    }else if(valueCi.value === 'G9' || valueCi.value === 'g9'){
+        res.innerHTML = 'Sol com nona'
+    }else if(valueCi.value === 'Gm9' || valueCi.value === 'gm9'){
+        res.innerHTML = 'Sol menor com nona'
+    }else if(valueCi.value === 'G#9' || valueCi.value === 'g#9'){
+        res.innerHTML = 'Sol sustenido com nona'
+    }else if(valueCi.value === 'G#m9' || valueCi.value === 'gm9'){
+        res.innerHTML = 'Sol sustenido menor com nona'
+    }else if(valueCi.value === 'Gb9' || valueCi.value === 'gb9'){
+        res.innerHTML = 'Sol bemol com nona'
+    }else if(valueCi.value === 'Gbm9' || valueCi.value === 'gbm9'){
+        res.innerHTML = 'Sol bemol menor com nona'
+    }else if(valueCi.value === 'A9' || valueCi.value === 'a9'){
+        res.innerHTML = 'Lá com nona'
+    }else if(valueCi.value === 'Am9' || valueCi.value === 'am9'){
+        res.innerHTML = 'Lá menor com nona'
+    }else if(valueCi.value === 'A#9' || valueCi.value === 'a#9'){
+        res.innerHTML = 'Lá sustenido com nona'
+    }else if(valueCi.value === 'A#m9' || valueCi.value === 'a#m9'){
+        res.innerHTML = 'Lá sustenido menor com nona'
+    }else if(valueCi.value === 'Ab9' || valueCi.value === 'ab9'){
+        res.innerHTML = 'Lá bemol com nona'
+    }else if(valueCi.value === 'Abm9' || valueCi.value === 'abm9'){
+        res.innerHTML = 'Lá bemol menor com nona'
+    }else if(valueCi.value === 'B9' || valueCi.value === 'b9'){
+        res.innerHTML = 'Si com nona';
+    }else if(valueCi.value === 'Bm9' || valueCi.value === 'bm9'){
+        res.innerHTML = 'Si menor com nona'
+    }else if(valueCi.value === 'B#9' || valueCi.value === 'b#9'){
+        res.innerHTML = 'Si sustenido com nona'
+    }else if(valueCi.value === 'B#m9' || valueCi.value === 'b#m9'){
+        res.innerHTML = 'Si sustenido menor com nona'
     }
     else{
         res.innerHTML = 'Error'
